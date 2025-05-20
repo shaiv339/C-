@@ -1,0 +1,9 @@
+cd real_time_object_detection
+mkdir build && cd build
+cmake ..
+make
+./rt_detect
+
+
+Download YOLOv5s ONNX
+wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.onnx -P assets/
